@@ -36,9 +36,9 @@ struct ContentView: View {
      }
     
      private func bmiCalculationMethod() {
-         let myWeightN = Double(self.myWeight)! * 2.204
-     let myHeightN = Double(self.myHeight)! * 0.0328
-     let myBMIResult = ""
+         myWeightN = "\(Double(self.myWeight)! * 2.204)"
+     myHeightN = "\(Double(self.myHeight)! * 0.0328)"
+     
   
      }
     var body: some View {
